@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Funnel Display", serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+#nav {
+  height: 100px;
+  width: 100%;
+  background-color: aqa;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0% 30px;
+}
+#nav-part1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#nav h3 {
+  font-size: 17px;
+  border: 1.5px solid #000;
+  font-weight: 500px;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+#nav i {
+  font-size: 17px;
+  border: 1.5px solid #000;
+  font-weight: 500px;
+  padding: 5px 8px;
+  border-radius: 50px;
+}
+#nav h1 {
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+#nav button {
+  padding: 7px 12px;
+  border-radius: 50px;
+  border: 1.5px solid #000;
+  font-weight: 500;
+}
+
+#btn2 {
+  border: none;
+  background-color: orangered;
+  color: #ffffff;
+}
+#main > h1 {
+  font-size: 125px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  height: 350px;
+  width: 250px;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+#img1 {
+  transform: translate(-50%, -50%) rotate(-30deg);
+}
+#img2 {
+  transform: translate(-50%, -50%) rotate(-10deg);
+}
+#img3 {
+  transform: translate(-50%, -50%) rotate(-20deg);
+}
+
+#btm-left {
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+  width: 200px;
+}
+#icons {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+h5 {
+  position: absolute;
+  bottom: 2%;
+  right: 5%;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
